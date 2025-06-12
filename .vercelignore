@@ -1,23 +1,20 @@
-# Exclude the Jupyter Notebook (very important)
+# Exclude the Jupyter Notebook
 CustomerChurnPredictionusingML.ipynb
 
-# Exclude the original dataset if app1.py doesn't use it directly
-# (Your app1.py doesn't seem to read ccpdata.csv, so it's probably safe to exclude)
+# Exclude the raw dataset (app1.py doesn't directly use this for prediction)
 ccpdata.csv
 
-# Exclude training scripts
+# Exclude model training script
 train_save_model.py
-churn_model.py # If it's only used for model loading, and not other helper functions
-                # BUT: app1.py imports churn_model.py, so we NEED churn_model.py.
-                # Do NOT exclude churn_model.py! Re-evaluate if it's big.
-                # My apologies, churn_model.py IS needed. So do NOT exclude it.
 
-# Exclude Git-related files (often ignored by default, but good to be explicit)
-.git
+# Exclude Git-related files
+.git/
 .gitignore
 
-# Exclude any virtual environment folders if you have them
-venv/
-env/
+# Exclude Python cache directories
 __pycache__/
 *.pyc
+
+# Exclude virtual environment folders
+venv/
+env/

@@ -1,8 +1,8 @@
-streamlit==1.33.0
-pandas==2.2.2
-scikit-learn==1.4.2
-joblib==1.4.2
-numpy==1.26.4
-matplotlib==3.8.4
-xgboost==2.0.3 # Include if your trained model uses XGBoost
-imbalanced-learn==0.12.2 # Include if SMOTE was used during training and affects preprocessing
+streamlit
+pandas
+scikit-learn
+joblib
+numpy
+matplotlib
+xgboost # Only if your saved model is XGBoost
+imbalanced-learn # Only if used in preprocessing in churn_model.py
