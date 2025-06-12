@@ -43,4 +43,5 @@ This is a **Streamlit-based web app** that predicts customer churn using a train
 
 ## 👤 Created By
 Tushar Chaudhari
-# Customer-Churn-Prediction-App
+# [Customer-Churn-Prediction-App](https://itushar09-customer-churn-prediction-app-app1-ly6bml.streamlit.app/)
+
