@@ -122,8 +122,11 @@ with tab3:
     **Features:**
     - Accepts user inputs and predicts churn risk.
     - Displays confidence and feature importance.
+    - Simple, interactive UI for ease of use.
 
+    **Technologies Used:**
+     - Python, Streamlit, NumPy, pandas, matplotlib, seaborn, scikit-learn, SMOTE (imbalanced-learn), XGBoost, pickle.
+   
     **Created by:** Tushar Chaudhari
     """)
-    """_summary_
-    """
+    st.write("For more information, visit the [GitHub repository](https://github.com/iTushar09/Customer-Churn-Prediction-App.git)")
